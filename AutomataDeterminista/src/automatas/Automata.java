@@ -107,7 +107,8 @@ public class Automata {
 			case 6:
 				aceptacion = true;
 				if (caracter == 'a') {
-					
+					estado = 5;
+					lexema += caracter;
 				} else if (caracter == 'b') {
 					
 				} else if (caracter == 'c') {
