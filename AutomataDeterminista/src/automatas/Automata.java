@@ -5,7 +5,7 @@ public class Automata {
 		int estado = 0;
 		int indice = 0;
 		String lexema = "";
-		String cadena = "aabb" + " ";
+		String cadena = "b" + " ";
 		boolean aceptacion = false;
 		
 		for (indice = 0; indice < cadena.length(); indice++) {
