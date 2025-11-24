@@ -1,6 +1,6 @@
 package automatas;
 
-public class Prueba {
+public class PruebaUno {
 	public static void main(String[] args) {
 		int estado = 0;
 		int indice = 0;
