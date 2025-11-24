@@ -113,7 +113,7 @@ public class PruebaUno {
 					estado = 5;         
 					lexema += caracter;
 				} else if (caracter == 'b') {
-					estado = 4;         
+					estado = 11;         
 					lexema += caracter;
 				} else if (caracter == 'c') {
 					lexema += caracter;  
