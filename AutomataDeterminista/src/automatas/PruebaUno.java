@@ -5,7 +5,7 @@ public class PruebaUno {
 		int estado = 0;
 		int indice = 0;
 		String lexema = "";
-		String cadena = "bbaabbaacccc" + " ";
+		String cadena = "cbcbaacaabbaab" + " ";
 		boolean aceptacion = false;
 		
 		for (indice = 0; indice < cadena.length(); indice++) {
@@ -107,13 +107,16 @@ public class PruebaUno {
 				break;
 				
 			case 6:
-				aceptacion = true;
+				aceptacion = true; 
+				
 				if (caracter == 'a') {
-					
-				} else if (caracter == 'b') {
-					
-				} else if (caracter == 'c') {
+					estado = 5;         
 					lexema += caracter;
+				} else if (caracter == 'b') {
+					estado = 4;         
+					lexema += caracter;
+				} else if (caracter == 'c') {
+					lexema += caracter;  
 				} else if (caracter == ' ') {
 					
 				} else {
@@ -188,6 +191,7 @@ public class PruebaUno {
 					System.out.println("Error lexico");
 				}
 				break;	
+				
 			}
 			
 			System.out.print("\n");
